@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day of the 42</title>
+    <link rel="stylesheet" href="scumm.css">
+</head>
+
+<body>
+    <nav>
+        <a href="scumm.html"><img id="img-42" title="Day of the 42" src="resources/day_of_the_42.png"></a>
+        <img id="img-magnifying-glass" title="Loupe" src="resources/loupe.png">
+        <a href="http://www.disney.com/"><img id="img-reload" title="Recommencer au début" src="resources/reload.png"></a>
+        <a href ="http://www.relaischateaux.com/"><img id="img-close" title="Déconne cter" src="resources/close.gif"></a>
+    </nav>
+    <div id="content">
+        <div id="menu-left">
+            <a href="parler.html"><img class="img-side-menu" title="Avancer" src="resources/arrow.png"></a>
+            <a href="prendre.html"><img class="img-side-menu" title="Prendre" src="resources/main.png"></a>
+            <a href="regarder.html"><img class="img-side-menu" title="Regarder" src="resources/oeil.png"></a>
+            <a href="utiliser.html"><img class="img-side-menu" title="Utiliser" src="resources/outil.png"></a>
+            <a href="parler.html"><img class="img-side-menu active" title="Parler" src="resources/chat-icon.png"></a>
+        </div>
+        <div id="menu-center">
+            <img src="resources/cluster.jpg" title="cluster" usemap="#cluster">
+            <map name="cluster">
+                <area shape="rect" coords="333, 333, 474, 554" alt="Chaise" href="http://www.ikea.com/">
+                <area shape="rect" coords="810, 323, 994, 468" alt="Apple" href="http://www.apple.com/">
+            </map>
+        </div>
+        <div id="menu-right">
+            <img class="img-side-menu" title="Livre" src="resources/book.png">
+            <img class="img-side-menu" title="Serviette" src="resources/towel.png">
+            <div id="menu-right-brick" title="Mur"></div>
+        </div>
+        <div class="popup alysson">
+            <p>Hi, je m'appelle <span id="popup-big-word">Alysson</span>, je viens du Texas</p>
+            <p id="popup-text">- Comment tu t'appelles ?</p>
+            <input id="popup-input" type="text"><input type="submit" value="Repondre">
+        </div>
+    </div>
+</body>
+
+</html>

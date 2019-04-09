@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    text-align: center;
+    /* background: white; */
+  }
+  
+  .header h1 {
+    font-size: 50px;
+  }
+  
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    /* width: 1500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+    /* background-color: #333; */
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  .topnav a:hover {
+    background-color: rgb(226, 226, 226);
+    color: black;
+  }
+  
+  .img {
+    /* background-color: #aaa; */
+    width: auto;
+  }
+  .homepage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 1000px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    padding: 10px 0px;
+    margin-top: 0px;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 1px;
+    text-align: center;
+    /* background: #ddd; */
+    margin-top: 10px;
+  }
+  .footer h2 {
+    font-size: 15px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+/* CSS for menu */
+
+h3 {
+  font-size: 1.2vh;
+}
+.main-nav {
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px #D3D3D3;
+}
+
+.main-nav li {
+  font-family: "Avenir",Arial,sans-serif;
+  line-height: 50px;
+  font-weight: 500;
+  float: left;
+}
+
+.main-nav li.right {
+  float: right;
+}
+
+.main-nav li a {
+  display: block;
+  text-align: center;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+#cart-icon {
+  padding: 0px 15px 0px 15px;
+  height: 22px;
+  margin-top: 12px;
+}
+
+#home {
+  border-right: 1px solid #D3D3D3;
+  padding-right: 20px;
+}
+
+.right {
+  float: right;
+}
+
+.login {
+  margin-top: 300px;
+  width: 500px;
+  height: 800px;
+  position: relative;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#products_box {
+  width: 800px;
+  text-align: center;
+}
+#full_product {
+  position: relative;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+#single_product {
+  float: left;
+  padding: 30px;
+ } 
+#product_desc {
+  float: left;
+  padding: 30px;
+  width: 300px;
+ }  
+
+@media screen and (max-width: 600px) {
+  .main-nav li.right, .main-nav li {
+    float: none;
+  }
+  #home {
+    border-right: none;
+    padding-right: 20px;
+  }
+}
+
+/* CSS FOR ADMIN SECTION */
+
+#admin-section-right {
+  text-align: center;
+  width: 200px;
+  height: 500px;
+  float: right;
+  background-color: #d3d3d3;
+}
+
+#admin-section-left {
+  margin-left: 20px;
+  width: 800px;
+  height: 900px;
+  background-color: #d3d3d3;
+  padding: 10px;
+}
+
+#admin-section-title {
+  text-align: center;
+}
+
+#admin-section-right a {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+}
+
+#admin-section-right a:hover {
+  text-decoration: underline;
+}
+
+input {
+  width: 300px;
+  padding: 5px 10px;
+  margin: 10px 5px;
+  box-sizing: border-box;
+}

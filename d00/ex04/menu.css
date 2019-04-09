@@ -1,0 +1,110 @@
+.main-nav {
+    font-size: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #0088CE;
+}
+
+li {
+    font-family: "Avenir",Arial,sans-serif;
+    font-weight: 500;
+    float: left;
+}
+
+.dropdown-button {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    color: #0088CE;
+    line-height: 80px;
+    width: 150px;
+    padding: 0px 20px 0px 20px;
+}
+
+li a:hover, .dropdown-menu:hover .dropdown-button {
+    background-color: #F2F2F2;
+}
+
+.dropdown {
+    font-size: 14px;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    width: 190px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px #D8D8D8;
+    z-index: 1;
+}
+
+.dropdown-sub {
+    font-size: 14px;
+    left: 190px;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px #D8D8D8;
+    z-index: 1;
+}
+
+.dropdown a {
+    width: 150px;
+    color: #747678;
+    padding: 20px 21px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-sub a {
+    width: 150px;
+    font-size: 14px;
+    padding: 20px 21px;
+}
+
+.first-sub {
+    top: 0px;
+}
+
+.second-sub {
+    top: 60px;
+}
+
+.third-sub {
+    top: 120px;
+}
+
+.dropdown-menu:hover .dropdown {
+    display: block;
+}
+
+.dropdown-submenu:hover .dropdown-sub {
+    display: block;
+}
+
+.dropdown.second-m {
+    min-width: 400px;
+  }
+
+.dropdown a:hover {
+    background-color: #f1f1f1;
+    color: #0088CE;
+}
+
+#menu-sncf-icon {
+    padding: 22px 20px 0px 20px;
+    width: 60px;
+}
+
+#derulo-img {
+    width: 400px;
+}

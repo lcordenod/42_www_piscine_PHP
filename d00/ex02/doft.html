@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day of the 42</title>
+    <link rel="stylesheet" href="doft.css">
+</head>
+
+<body>
+    <nav>
+        <img id="img-42" title="Day of the 42" src="resources/day_of_the_42.png">
+        <img id="img-magnifying-glass" title="Loupe" src="resources/loupe.png">
+        <a href="http://www.disney.com/"><img id="img-reload" title="Recommencer au début" src="resources/reload.png"></a>
+        <a href ="http://www.relaischateaux.com/"><img id="img-close" title="Déconnecter" src="resources/close.gif"></a>
+    </nav>
+    <div id="content">
+        <div id="menu-left">
+            <img class="img-side-menu" title="Avancer" src="resources/arrow.png">
+            <img class="img-side-menu" title="Prendre" src="resources/main.png">
+            <img class="img-side-menu" id="img-oeil" title="Regarder" src="resources/oeil.png">
+            <img class="img-side-menu" title="Utiliser" src="resources/outil.png">
+            <img class="img-side-menu" title="Parler" src="resources/chat-icon.png">
+        </div>
+        <div id="menu-center">
+            <img src="resources/cluster.jpg" title="cluster" usemap="#cluster">
+            <map name="cluster">
+                <area shape="rect" coords="333, 333, 474, 554" alt="Chaise" href="http://www.ikea.com/">
+                <area shape="rect" coords="810, 323, 994, 468" alt="Apple" href="http://www.apple.com/">
+            </map>
+        </div>
+        <div id="menu-right">
+            <img class="img-side-menu" title="Livre" src="resources/book.png">
+            <img class="img-side-menu" title="Serviette" src="resources/towel.png">
+            <div id="menu-right-brick" title="Mur"></div>
+        </div>
+        <div id="popup">
+            <p>Vous <span id="popup-big-word">entrez</span> alors dans une grande piece remplie d'<span id="popup-ordi">ordinateurs</span>...</p>
+            <p id="popup-text">- Bonjour, vous êtes nouveau ici ?</p>
+            <input id="popup-input" type="text"><input type="submit" value="Repondre">
+        </div>
+    </div>
+</body>
+
+</html>

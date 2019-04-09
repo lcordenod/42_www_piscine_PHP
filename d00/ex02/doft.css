@@ -1,0 +1,152 @@
+body {
+    background-color: #505050;
+    width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    display: block;
+    width: 1400px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img-42 {
+    position: absolute;
+    margin-left: 10px;
+    height: 100px;
+    padding-top: 5px;
+}
+
+#img-magnifying-glass {
+    position: absolute;
+    margin-left: 1130px;
+    margin-top: 10px;
+    height: 138px;
+}
+
+#img-reload {
+    position: absolute;
+    margin-left: 1370px;
+    margin-top: 10px;
+    height: 20px;
+}
+
+#img-close {
+    position: absolute;
+    margin-left: 1370px;
+    margin-top: 100px;
+    height: 20px;
+}
+
+#content {
+    width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu-left {
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 140px;
+    height: 425px;
+}
+
+#menu-right {
+    background-color: #909090;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    position: absolute;
+    margin-left: 1230px;
+    margin-top: 25px;
+    width: 140px;
+    height: 425px;
+}
+
+.img-side-menu {
+    display: block;
+    width: 70px;
+    margin: 10px auto 0px auto;
+}
+
+#img-oeil {
+    margin-top: 5px;
+    border: solid 5px red;
+    border-radius: 5px;
+}
+
+#menu-center img {
+    position: absolute;
+    border: solid 10px #909090;
+    box-shadow: 10px 10px 15px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 25px;
+    width: 980px;
+}
+
+.img-brick {
+    position: absolute;
+    margin-left: 30px;
+    width: 30px;
+}
+
+#menu-right-brick {
+    display: block;
+    margin-top: 5px;
+    margin-left: 10px;
+    height: 70px; 
+    width: 120px;
+    background-size: 10px;
+    background: url(resources/brick.jpg) repeat;
+}
+
+#popup {
+    background-color: #88ff89;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px;
+    position: absolute;
+    margin-left: -45px;
+    margin-top: 520px;
+    padding: 10px 0px 0px 10px;
+    width: 470px;
+    height: 145px;
+}
+
+#popup p {
+    font-size: 15px;
+    font-family: Verdana;
+    margin: 0px;
+    padding: 0px;
+}
+
+#popup-input {
+    width: 330px;
+    border-top: solid 2px #9a9c9b;
+    margin: 0px 10px 0px 3px;
+}
+
+#popup-text {
+    font-style: italic;
+}
+
+#popup-big-word {
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+#popup-ordi {
+    text-shadow: 4px 5px 6px #ff3333;
+}

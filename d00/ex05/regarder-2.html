@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Day of the 42</title>
+    <link rel="stylesheet" href="scumm.css">
+</head>
+
+<body>
+    <nav>
+        <a href="scumm.html"><img id="img-42" title="Day of the 42" src="resources/day_of_the_42.png"></a>
+        <img id="img-magnifying-glass" title="Loupe" src="resources/loupe.png">
+        <a href="http://www.disney.com/"><img id="img-reload" title="Recommencer au début" src="resources/reload.png"></a>
+        <a href ="http://www.relaischateaux.com/"><img id="img-close" title="Déconne cter" src="resources/close.gif"></a>
+    </nav>
+    <div id="content">
+        <div id="menu-left">
+            <a href="regarder-3.html"><img class="img-side-menu" title="Avancer" src="resources/arrow.png"></a>
+            <a href="prendre.html"><img class="img-side-menu" title="Prendre" src="resources/main.png"></a>
+            <a href="regarder.html"><img class="img-side-menu active" title="Regarder" src="resources/oeil.png"></a>
+            <a href="utiliser.html"><img class="img-side-menu" title="Utiliser" src="resources/outil.png"></a>
+            <a href="parler.html"><img class="img-side-menu" title="Parler" src="resources/chat-icon.png"></a>
+        </div>
+        <div id="menu-center">
+            <img src="resources/cantina.jpg" title="Cool la cantina" usemap="#cantina">
+            <map name="cantina">
+                <area shape="rect" coords="0, 350, 800, 650" alt="Chaises et tables" href="http://www.ikea.com/">
+                <area shape="rect" coords="0, 0, 980, 200" alt="Terrasse" href="https://www.leroymerlin.fr/v3/p/produits/terrasse-jardin/terrasse-et-sol-exterieur-l1308217008">
+            </map>
+        </div>
+        <div id="menu-right">
+            <img class="img-side-menu" title="Livre" src="resources/book.png">
+            <img class="img-side-menu" title="Serviette" src="resources/towel.png">
+            <div id="menu-right-brick" title="Mur"></div>
+        </div>
+        <div id="popup-hidden">
+            <p>Vous <span id="popup-big-word">entrez</span> alors dans une grande piece remplie d'<span id="popup-ordi">ordinateurs</span>...</p>
+            <p id="popup-text">- Bonjour, vous êtes nouveau ici ?</p>
+            <input id="popup-input" type="text"><input type="submit" value="Repondre">
+        </div>
+    </div>
+</body>
+
+</html>

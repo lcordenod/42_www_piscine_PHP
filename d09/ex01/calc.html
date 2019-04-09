@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript Calculator</title>
+    </head>
+    <body>
+        <form onsubmit="myCalculator()" id="calculator">
+            <input type="text" id="fst-member">
+            <select id="operator">
+                    <option value="plus">+</option>
+                    <option value="minus">-</option>
+                    <option value="prod">*</option>
+                    <option value="div">/</option>
+                    <option value="mod">%</option>
+            </select>
+            <input type="text" id="scd-member">
+            <input type="submit" value="Try me!">
+        </form>
+        <script>
+            setInterval(function(){ alert("Please, use me..."); }, 30000);
+            var form = document.getElementById("calculator"); function handleForm(event) { event.preventDefault(); } form.addEventListener('submit', handleForm);
+            
+            function myCalculator() {
+                var fst_member = document.getElementById("fst-member").value;
+                var scd_member = document.getElementById("scd-member").value;
+                var ope = document.getElementById("operator").value;
+                if (isNaN(fst_member) || isNaN(scd_member) || fst_member < 0 || scd_member < 0 || fst_member === "" || scd_member === "" || !fst_member.trim() || !scd_member.trim() || Number.isInteger(Number(fst_member)) === false || Number.isInteger(Number(scd_member)) === false)
+                    alert("Error :(");
+                else
+                {
+                    if (ope === "plus")
+                        var result = Number(fst_member) + Number(scd_member);
+                    else if (ope === "minus")
+                        var result = Number(fst_member) - Number(scd_member);
+                    else if (ope === "prod")
+                        var result = Number(fst_member) * Number(scd_member);
+                    else if ((ope === "div" || ope === "mod") && Number(scd_member) === 0)
+                    {
+                        console.log("It’s over 9000!");
+                        alert("It’s over 9000!");
+                        return;
+                    }
+                    else if (ope === "div")
+                        var result = Number(fst_member) / Number(scd_member);
+                    else if (ope === "mod")
+                        var result = Number(fst_member) % Number(scd_member);
+                    console.log(result);
+                    alert(result);
+                }
+            }
+        </script>
+    </body>
+</html>

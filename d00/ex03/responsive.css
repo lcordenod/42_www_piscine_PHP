@@ -1,0 +1,300 @@
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+caption {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#info-bar{
+    border-collapse: collapse;
+}
+
+td {
+    border: solid 1px;
+    width: 200px;
+}
+
+th {
+    border: solid 1px;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 5px;
+}
+
+.number {
+    text-align: left;
+    font-size: 12px;
+}
+
+.symbol {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.weight {
+    text-align: right;
+    font-size: 12px;
+}
+
+.empty {
+    border: none;
+}
+
+.type-nonmetal {
+    background-color: #FFFDAF;
+}
+
+.type-noble-gas {
+    background-color: #ADD8E6;
+}
+
+.type-alkali {
+    background-color: #BD4B56;
+}
+
+.type-alkaline {
+    background-color: #FAB56F;
+}
+
+.type-transition {
+    background-color: #F58893;
+}
+
+.type-post-transition {
+    background-color: #AEACAC;
+}
+
+.type-metalloid {
+    background-color: #C7C76C;
+}
+
+.type-unknown {
+    background-color: #E8E8E3;
+}
+
+.type-lanthanide {
+    background-color: #F2A3FA;
+}
+
+.type-actinide {
+    background-color: #FC8CB9;
+}
+
+.info-row {
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+}
+
+.info-header {
+    background-color: #E8E8E8;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    img {
+        max-width: 400px;
+    }
+
+    caption {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 1px;
+    }
+
+    td {
+        max-width: 18px;
+    }
+    
+    th {
+        max-width: 35px;
+    }
+
+    .number {
+        font-size: 6px;
+    }
+
+    .weight {
+        font-size: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .symbol {
+        font-size: 10px;
+    }
+    
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    .info-row {
+        font-size: 10px;
+        padding: 1px;
+        overflow: hidden;
+    }
+
+    .type-metalloid.info-row {
+        max-width: 50px;
+    }
+
+    .type-unknown.info-row {
+        max-width: 50px;
+    }
+    
+    .info-header {
+        background-color: #E8E8E8;
+    }
+
+    .info-header {
+        font-size: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 35px;
+    }
+
+    img {
+        max-width: 500px;
+    }
+
+    p {
+        margin: 2px;
+    }
+
+    td {
+        max-width: 30px;
+    }
+    
+    th {
+        max-width: 55px;
+    }
+
+    .number {
+        font-size: 12px;
+    }
+
+    .weight {
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .symbol {
+        font-size: 16px;
+    }
+    
+    table {
+        margin: auto;
+        border-collapse: collapse;
+    }
+
+    .info-row {
+        font-weight: 400;
+        font-size: 15px;
+        padding: 2px;
+        overflow: hidden;
+    }
+
+    .type-metalloid.info-row {
+        max-width: 70px;
+    }
+
+    .type-unknown.info-row {
+        max-width: 70px;
+    }
+    
+    .info-header {
+        font-size: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    img {
+        max-width: 600px;
+    }
+
+    caption {
+        font-size: 25px;
+    }
+
+    p {
+        margin: 2px;
+    }
+
+    td {
+        max-width: 39px;
+    }
+    
+    th {
+        max-width: 70px;
+    }
+    
+    .info-header {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    img {
+        max-width: 800px;
+    }
+
+    p {
+        margin: 5px;
+    }
+
+    td {
+        max-width: 48px;
+    }
+    
+    th {
+        max-width: 80px;
+    }
+
+    table {
+        border-collapse: separate;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    p {
+        margin: 7px;
+    }
+
+    td {
+        max-width: 64px;
+    }
+    
+    th {
+        max-width: 100px;
+    }
+}
